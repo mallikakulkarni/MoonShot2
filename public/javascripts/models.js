@@ -21,26 +21,34 @@
 /* ====================================================================== */
 
 o3v.MODELS = [
-  {
+    {
     name: 'skeletal.obj',
     scriptName: 'skeletal.js',
     modelPath: 'models/skeletal/',
     metadataFile: 'entity_metadata.json',
     texturePath: 'models/common/',
     numLayers: 1
-  },{
+    },{
     name: 'male_skin.obj',
     scriptName: 'male_skin.js',
     modelPath: 'models/male_skin/',
     metadataFile: 'entity_metadata.json',
     texturePath: 'models/common/',
     numLayers: 1
-  },{
+    },{
     name: 'female_skin.obj',
     scriptName: 'female_skin.js',
     modelPath: 'models/female_skin/',
     metadataFile: 'entity_metadata.json',
     texturePath: 'models/common/',
     numLayers: 1
-  }
+    },
+    {
+        name: 'cow_anatomy.obj',
+        scriptName: 'cow_anatomy.js',
+        modelPath: 'models/cow_anatomy/',
+        metadataFile: 'entity_metadata.json',
+        texturePath: 'models/common/',
+        numLayers: 1
+    }
 ];
